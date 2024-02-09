@@ -6,7 +6,9 @@
   "version": "1.0.0",
   "description": "Los primeros ejercicios",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

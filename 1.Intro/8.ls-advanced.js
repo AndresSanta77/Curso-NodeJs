@@ -10,7 +10,7 @@ async function ls (folder) {
     files = await fs.readdir(folder)
   } catch {
     console.error(pc.red(`❌ No se pudo leer el directorio ${folder}`))
-    process.exit(1)
+    process.exit(1) 
   }
 
   const filesPromises = files.map(async file => {
@@ -29,7 +29,7 @@ async function ls (folder) {
     const fileSize = stats.size.toString()
     const fileModified = stats.mtime.toLocaleString()
 
-    return `${pc.bgMagenta(fileType)} ${pc.blue(file.padEnd(30))} ${pc.green(fileSize.padStart(10))} ${pc.yellow(fileModified)}`
+    return `${pc.white(fileType)} ${pc.blue(file.padEnd(30))} ${pc.green(fileSize.padStart(10))} ${pc.yellow(fileModified)}`
   })
 
   const filesInfo = await Promise.all(filesPromises)
