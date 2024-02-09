@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "name": "ejercicios-node-1",
+  "version": "1.0.0",
+  "description": "Los primeros ejercicios",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresSanta77/Curso-NodeJs.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs"
+  ],
+  "author": "ASSL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresSanta77/Curso-NodeJs/issues"
+  },
+  "homepage": "https://github.com/AndresSanta77/Curso-NodeJs#readme"
+}
