@@ -4,7 +4,8 @@
   "description": "Este es el repositorio donde guardare mis archivos creados, tomados de ejemplo del curso que realizo por distintos creadores de contenido por youtube y twitch.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-fix": "eslint src/--fix"
   },
   "keywords": [],
   "author": "",
