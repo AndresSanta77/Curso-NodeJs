@@ -1,0 +1,23 @@
+{
+  "name": "3.api_rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:mysql":"node --watch server-with-mysql.js",
+    "start:local":"node --watch server-with-local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "mongodb": "6.3.0",
+    "mysql2": "^3.9.1",
+    "zod": "^3.22.4"
+  }
+}
